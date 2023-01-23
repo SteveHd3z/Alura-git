@@ -1,0 +1,18 @@
+.imgs{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.imgs:hover .goku{
+    -webkit-transform:scale(1.3);
+    transform:scale(1.3);    
+}
+
+.contenedor-goku{
+    overflow: hidden;
+}
+
+.goku{
+    width: 259px;
+    height: 194px;
+}
